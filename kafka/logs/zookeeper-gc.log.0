@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+
+<verbosegc xmlns="http://www.ibm.com/j9/verbosegc" version="741e94ea8_CMPRSS">
+
+<initialized id="1" timestamp="2022-12-16T17:46:50.000">
+  <attribute name="gcPolicy" value="-Xgcpolicy:gencon" />
+  <attribute name="maxHeapSize" value="0x20000000" />
+  <attribute name="initialHeapSize" value="0x20000000" />
+  <attribute name="compressedRefs" value="true" />
+  <attribute name="compressedRefsDisplacement" value="0x0" />
+  <attribute name="compressedRefsShift" value="0x0" />
+  <attribute name="pageSize" value="0x1000" />
+  <attribute name="pageType" value="not used" />
+  <attribute name="requestedPageSize" value="0x1000" />
+  <attribute name="requestedPageType" value="not used" />
+  <attribute name="gcthreads" value="8" />
+  <attribute name="gcthreads Concurrent Mark" value="1" />
+  <attribute name="packetListSplit" value="1" />
+  <attribute name="cacheListSplit" value="1" />
+  <attribute name="splitFreeListSplitAmount" value="1" />
+  <attribute name="numaNodes" value="0" />
+  <system>
+    <attribute name="physicalMemory" value="8589934592" />
+    <attribute name="numCPUs" value="8" />
+    <attribute name="architecture" value="amd64" />
+    <attribute name="os" value="Mac OS X" />
+    <attribute name="osVersion" value="10.16" />
+  </system>
+  <vmargs>
+    <vmarg name="-Xoptionsfile=/Users/sinbong-geun/Library/Java/JavaVirtualMachines/adopt-openj9-15.0.2/Contents/Home/lib/options.default" />
+    <vmarg name="-Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword..." />
+    <vmarg name="-Xjcl:jclse29" />
+    <vmarg name="-Dcom.ibm.oti.vm.bootstrap.library.path=/Users/sinbong-geun/Library/Java/JavaVirtualMachines/adopt-openj9-15.0.2/Contents/Home/..." />
+    <vmarg name="-Dsun.boot.library.path=/Users/sinbong-geun/Library/Java/JavaVirtualMachines/adopt-openj9-15.0.2/Contents/Home/lib/compressedre..." />
+    <vmarg name="-Djava.library.path=/Users/sinbong-geun/Library/Java/JavaVirtualMachines/adopt-openj9-15.0.2/Contents/Home/lib/compressedrefs:/..." />
+    <vmarg name="-Djava.home=/Users/sinbong-geun/Library/Java/JavaVirtualMachines/adopt-openj9-15.0.2/Contents/Home" />
+    <vmarg name="-Duser.dir=/Users/sinbong-geun/Desktop/kafka_2.12-3.3.1" />
+    <vmarg name="-Xmx512M" />
+    <vmarg name="-Xms512M" />
+    <vmarg name="-XX:+UseG1GC" />
+    <vmarg name="-XX:MaxGCPauseMillis=20" />
+    <vmarg name="-XX:InitiatingHeapOccupancyPercent=35" />
+    <vmarg name="-XX:+ExplicitGCInvokesConcurrent" />
+    <vmarg name="-XX:MaxInlineLevel=15" />
+    <vmarg name="-Djava.awt.headless=true" />
+    <vmarg name="-Xlog:gc*:file=/Users/sinbong-geun/Desktop/kafka_2.12-3.3.1/bin/../logs/zookeeper-gc.log:time,tags:filecount=10,filesize=100M" />
+    <vmarg name="-Dcom.sun.management.jmxremote" />
+    <vmarg name="-Dcom.sun.management.jmxremote.authenticate=false" />
+    <vmarg name="-Dcom.sun.management.jmxremote.ssl=false" />
+    <vmarg name="-Dkafka.logs.dir=/Users/sinbong-geun/Desktop/kafka_2.12-3.3.1/bin/../logs" />
+    <vmarg name="-Dlog4j.configuration=file:bin/../config/log4j.properties" />
+    <vmarg name="-Djava.class.path=/Users/sinbong-geun/Desktop/kafka_2.12-3.3.1/bin/../libs/activation-1.1.1.jar:/Users/sinbong-geun/Desktop/kaf..." />
+    <vmarg name="-Dsun.java.command=org.apache.zookeeper.server.quorum.QuorumPeerMain config/zookeeper.properties" />
+    <vmarg name="-Dsun.java.launcher=SUN_STANDARD" />
+  </vmargs>
+</initialized>
+
+</verbosegc>
+
